@@ -1,0 +1,24 @@
+﻿# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments and Python artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# OS files
+.DS_Store
+Thumbs.db
